@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    background-color: #f0f8ff;
+    color: #212529;
+    
+}
+
+.navbar-text {
+    font-family:Arial;
+    
+    text-shadow: 1px 1px #0491e9;
+    
+}
+.nav-link {
+    font-family:Arial;
+    font-size: 20px;
+}
+.navbar-brand {
+    font-size: 30px;
+}
+.navbar {
+    background-color: lightblue;
+}
+.YEAR7 {
+    text-shadow: 1px 1px #ADDFFF;
+}
+.YEAR8 {
+    text-shadow: 1px 1px #ADDFFF;
+}
+.YEAR9 {
+    text-shadow: 1px 1px #ADDFFF;
+}
+.header {
+    text-shadow: 2px 2px #ADDFFF;
+}
+.footer {
+    background-color: #ADDFFF;
+  }
+  .footer-text {
+    font-size: 20px;
+    font-family: Arial;
+  }
+  .footer-icon {
+    font-size: 35px;
+  }
+  .footer-text:hover {
+    font-size: 22px;
+    text-shadow: 1px 1px blue;
+  }
+
+

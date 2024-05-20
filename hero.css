@@ -1,0 +1,229 @@
+#hero {
+    width: 100%;
+    height: 80vh;
+    background: url('Image/heroimg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 200px;
+}
+
+.container {
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.534);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.233);
+    border-radius: 10px;
+}
+
+.hero-text h1 {
+    font-size: 40px; 
+    margin-bottom: 20px;
+}
+
+.hero-text h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 40px; 
+    }
+    .hero-text h2 {
+        font-size: 19.2px; 
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .hero-text h1 {
+        font-size: 32px;
+    }
+    .hero-text h2 {
+        font-size: 16px;
+    }
+    .button {
+        font-size: 14.4px;
+    }
+}
+
+
+body {
+    font-family: Arial;
+    background-color: #f0f8ff;
+    color: #212529;
+    
+
+}
+.navbar-text {
+    font-family:Arial;
+    
+    text-shadow: 1px 1px #04a8e9;
+    
+}
+.nav-link {
+    font-family:Arial;
+    font-size: 20px;
+}
+.navbar-brand {
+    font-size: 30px;
+}
+.navbar {
+    background-color: lightblue;
+}
+
+.icon {
+    font-size: 30px;
+}
+.box {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+@media (max-width: 767px) {
+    #hero{
+        height: 520px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #hero{
+        height: 540px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #hero{
+        height: 500px;
+        width: 100%;
+    }
+}
+.card:hover {
+
+    transform: scale(1.1);
+
+}
+@media (max-width: 767px) {
+    .card {
+        width: 330px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .OA {
+        width: 447px;
+        height: 250px;
+    }
+}
+.card {
+    background-color: #e6f2ff;
+    box-shadow: 2px 2px 2px 2px #ADDFFF;
+}
+.card-text {
+    text-shadow: 1px 1px #ADDFFF;
+}
+
+.accordion-button {
+    background-color: #e6f2ff;
+    text-shadow: 1px 1px #ADDFFF;
+}
+
+.our-website {
+    text-shadow: 1px 1px #ADDFFF;
+}
+.Owb {
+    text-shadow: 3px 3px #ADDFFF;
+}
+.OA:hover {
+    border:solid 8px #ADDFFF;
+}
+.review {
+    text-shadow: 3px 3px #ADDFFF;
+}
+.contact-us {
+    text-shadow: 3px 3px #ADDFFF;
+}
+.ouraim {
+    text-shadow: 3px 3px #ADDFFF;
+}
+.OA-Text {
+    text-shadow: 1px 1px #ADDFFF;
+}
+.accordion-body {
+    text-shadow: 1px 1px #ADDFFF;
+}
+.cartext {
+    color: black;
+    text-shadow: 1px 1px #ADDFFF;
+}
+.FAQ {
+    text-shadow: 3px 3px #ADDFFF;
+}
+.feedback {
+    color: black;
+    text-shadow: 3px 3px #ADDFFF;
+}
+
+@media (max-width: 992px) {
+    .c-a-r-d .col-md-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 992px) {
+  
+    .OA {
+        width: 100%;
+        height: 100%;
+    }
+  
+    .OA-Text {
+      text-align: center;
+    }
+  } 
+  .footer {
+    background-color: #ADDFFF;
+  }
+  .footer-text {
+    font-size: 20px;
+    font-family: Arial;
+  }
+  .footer-icon {
+    font-size: 35px;
+  }
+  .footer-text:hover {
+    font-size: 22px;
+    text-shadow: 1px 1px blue;
+  }
+
+
+@media (max-width: 768px) {
+    .hero-text h1, .box-title, .box-text {
+        font-size: 16px;
+    }
+}
+.box:hover {
+    transform: translateY(-45px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+
+
+
+
+
+

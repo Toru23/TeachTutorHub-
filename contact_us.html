@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="Image/our_logo.jpg" type="Image/x-icon">
+    <!--Bootstrap CDN Links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!--AOS link-->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f0f8ff; 
+        }
+
+        .hero-container {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-image {
+            background-image: url(Image/contact.png); 
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            z-index: 2;
+        }
+
+        .card-wrapper {
+            position: absolute;
+            top: 60%; 
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1; 
+            width: 100%;
+            margin-top: -50px; 
+        }
+
+        .box {
+            border-radius: 10px;
+            background-color: #e6f2ff; 
+            overflow: hidden;
+            position: relative;
+            z-index: 2;
+            transform: translateY(-50px); 
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); 
+            text-align: center; 
+            padding: 35px; 
+        }
+
+        .box .icon {
+            font-size: 48px; 
+            margin-bottom: 10px; 
+        }
+        @media (max-width: 768px) {
+            .hero-text h1, .box-title, .box-text {
+                font-size: 16px;
+            }
+        }
+        @media  (max-width: 768px) {
+            .feedbackoo {
+                margin-top: 900px;
+            }
+        }
+        .box:hover {
+            transform: translateY(-45px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+            cursor: pointer;
+        }
+
+        [data-aos="fade-up"] {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+        }
+        .navbar-text {
+    font-family:Arial;
+    
+    text-shadow: 1px 1px #04a8e9;
+    
+}
+.nav-link {
+    font-family:Arial;
+    font-size: 20px;
+}
+.navbar-brand {
+    font-size: 30px;
+}
+.navbar {
+    background-color: lightblue;
+}
+.footer {
+    background-color: #ADDFFF;
+  }
+  .footer-text {
+    font-size: 20px;
+    font-family: Arial;
+  }
+  .footer-icon {
+    font-size: 35px;
+  }
+  .footer-text:hover {
+    font-size: 22px;
+    text-shadow: 1px 1px blue;
+  }
+
+  
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md ">
+        <a class="navbar-brand navbar-text  ms-3" href="#">TeachTutorHub</a>
+    
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar_collapse"><span class="navbar-toggler-icon"></span></button>
+        <div class="navbar-collapse collapse" id="navbar_collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item navbar-text"><a class="nav-link" href="index.html" >Home</a></li>
+                <li class="nav-item navbar-text"><a class="nav-link" href="about_us.html" >About Us</a></li>
+                <li class="nav-item navbar-text"><a class="nav-link" href="contact_us.html" >Contact Us</a></li>
+                <li class="nav-item navbar-text"><a class="nav-link" href="lesson_page.html">Lesson</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto me-5">     
+                <li class="nav-item"><a class="nav-link" href="login.html"  style="font-size: 20px;"><button class="btn btn-primary">Login</button></a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="hero-container">
+        <div class="hero-image">
+            <div class="overlay"></div>
+            <div class="hero-text">
+                <h1>We'd Love to Hear From You</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container card-wrapper" >
+        <div class="row">
+            
+            <div class="col-md-6" data-aos="fade-up" >
+                <div class="box">
+                    <i class="bi bi-telephone icon"></i>
+                    <h5 class="box-title">Contact</h5>
+                    <p class="box-text">We are always here to help! If you have any questions, concerns, or just want to say hello, don't hesitate to reach out. You can contact us directly at 09965102921. We look forward to hearing from you and are eager to assist you in any way we can.</p>
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up">
+                <div class="box">
+                    <i class="bi bi-headset icon"></i>
+                    <h5 class="box-title">Customer Support</h5>
+                    <p class="box-text">At TeachTutorHub,  We're dedicated to ensuring that your learning experience is seamless and rewarding. Whether you have questions about our courses, need help navigating our website, or require technical assistance, our knowledgeable support team is here to assist you.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="700" style="margin-top:358px;">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="feedback">We Value Your Feedback</h2>
+          <p >Help us improve! Share your thoughts, suggestions, or concerns with us.</p>
+          <form action="#">
+            <div class="form-group ">
+              <input type="text" class="form-control " placeholder="Your Name" >
+            </div>
+            <div class="form-group py-1">
+              <input type="email" class="form-control" placeholder="Your Email" >
+            </div>
+            <div class="form-group py-1">
+              <textarea class="form-control" rows="5" placeholder="Your Feedback" ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Feedback</button>
+          </form>
+        </div>
+      </div>
+    <div class="footer" style="margin-top: 100px;">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="d-flex my-3 align-items-ceter">
+                    <div class="border-bottom border-dark w-100"></div>
+                    <div>Teach</div>
+                    <div>Tutor</div>
+                    <div>Hub</div>
+                    <div class="border-bottom border-dark w-100"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 text-center my-4">
+                        <!-- Footer Links -->
+                        <ul class="list-unstyled mb-0 justify-content-center ">
+                            <li class="mb-2 ms-5 py-1"><a href="index.html" class="text-dark nav-link footer-text">Home</a></li>
+                            <li class="mb-2 ms-5 py-1"><a href="about_us.html"  class="text-dark nav-link footer-text">About</a></li>
+                            <li class="mb-2 ms-5 py-1"><a href="login.html"  class="text-dark nav-link footer-text ">Login</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <a href="https://www.facebook.com/"><i class="bi bi-facebook" style="font-size: 33px;"></i></a>
+                        <a href="https://www.youtube.com/"><i class="bi bi-youtube ms-4" style="font-size: 33px;"></i></a>
+                        <a href="https://www.instagram.com/"><i class="bi bi-instagram ms-4" style="font-size: 33px;"></i></a>
+                        <div class="row py-3">
+                            <i class="bi bi-envelope" style="font-size: 17px;"> -TeachTutorHub@gamil.com</i>
+                            <i class="bi bi-telephone " style="font-size: 17px;">+95928273971</i>
+                        </div>
+                         
+                         
+                    </div>
+                    <div class="col-md-4 text-center my-4">
+                        <ul class="list-unstyled mb-0 ">
+                            <li class="mb-2 ms-4 py-1"><a href="lesson_page.html" class="text-dark nav-link footer-text">Lesson</a></li>
+                            <li class="mb-2 ms-5 py-1"><a href="contact_us.html" class="text-dark nav-link footer-text">Contact us</a></li>
+                            <li class="mb-2 ms-5 py-1"><a href="https://1drv.ms/w/c/83f189bb38ce25a4/ETWV7E8LzoJFrvKPtL6f9xIBLg172LuGnRidgIavqoBhcw?e=aZuWOR" class="text-dark nav-link footer-text">Reference</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!--
+                    <div class="col-md-6 my-3">
+                        
+                        <h4>Contect Us</h4>
+                        <hr>
+                        <i class="bi bi-envelope" style="font-size: 15px;"> -YMT@gamil.com</i>
+                        <i class="bi bi-telephone ms-3" style="font-size: 15px;">+95928273971</i>
+                        <form>
+                            <div class="row py-3">
+                                <div class="col-md-5">
+                                    <input type="text" name="fname" value="" id="fname" class="form-control form-control-md" placeholder="Send message to us!">
+                                    
+                                    
+                                </div>
+                                <div class="col-md-1">
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#my_modal" type="reset" >Send</button>
+                                </div>
+                            </div>
+                        </form>
+                         
+                         <div class="text-center py-5">
+                            <p>&copy; Team & Conditions   Privacy Policy</p>
+                            <p>&copy; 2024 Innovative. All rights reserved.</p>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </div>
+            <div class="text-center ">
+                <p>&copy; Team & Conditions   Privacy Policy</p>
+                <p>&copy; 2024 Innovative. All rights reserved.</p>
+            </div>
+        </div>
+    <!--Footer end-->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000
+        });
+    </script>
+
+</body>
+
+</html>

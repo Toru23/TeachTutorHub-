@@ -1,0 +1,1545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Year8</title>
+    <link rel="icon" href="Image/our_logo.jpg" type="Image/x-icon">
+     <!--Bootstrap CDN Links-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+     <!--Bootstrap icon link-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+     <!--AOS link-->
+     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!--Main CSS link-->
+     <link rel="stylesheet" href="year8.css">
+</head>
+<body>
+     <!--Nav start-->
+     <nav class="navbar navbar-expand-md ">
+        <a class="navbar-brand navbar-text  ms-3" href="#">TeachTutorHub</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar_collapse"><span class="navbar-toggler-icon"></span></button>
+        <div class="navbar-collapse collapse" id="navbar_collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item navbar-text"><a class="nav-link" href="index.html" >Home</a></li>
+                <li class="nav-item navbar-text"><a class="nav-link" href="about_us.html">About Us</a></li>
+                <li class="nav-item navbar-text"><a class="nav-link" href="contact_us.html">Contact Us</a></li>
+                <li class="nav-item navbar-text"><a class="nav-link" href="lesson_page.html">Lesson</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto me-5">     
+                <li class="nav-item"><a class="nav-link" href="login.html" style="font-size: 20px;"><button class="btn btn-primary">Login</button></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Nav End-->
+    <div class="course">
+        <div class="header">
+            <h1 class="title">Year 8</h1><hr>            
+            <label for="check" class="checkbtn">Lesson<i class="dropdown-toggle arrow" ></i></label>
+        </div>
+        <input type="checkbox" id="check">
+          
+        <div class="side-list">
+            <ul class="nav nav-pills justify-content-center flex-column">
+                <h4>Network</h4>
+                <li class="nav-item"><a href="#javascript2" class="nav-link side" data-bs-toggle="tab">Networking</a></li>
+                <li class="nav-item"><a href="#html2" class="nav-link active side" data-bs-toggle="tab">Network and Hardware</a></li>
+                <li class="nav-item"><a href="#css2" class="nav-link side" data-bs-toggle="tab">Cloud Computing</a></li>
+                <li class="nav-item"><a href="#sending_the_messages" class="nav-link side" data-bs-toggle="tab">Packet-switched and Circuit-switched</a></li>
+                <li class="nav-item"><a href="#security" class="nav-link side" data-bs-toggle="tab">Network Security</a></li>
+                <li class="nav-item"><a href="#exercise1" class="nav-link side" data-bs-toggle="tab">Exercises</a></li>
+                <h4>Computer and Learning</h4>
+                <li class="nav-item"><a href="#computer1" class="nav-link side" data-bs-toggle="tab">Computer in education</a></li>
+                <li class="nav-item"><a href="#e-learning" class="nav-link side" data-bs-toggle="tab">E-learning</a></li>
+                <li class="nav-item"><a href="#simulation" class="nav-link side" data-bs-toggle="tab">Simulation</a></li>
+                <li class="nav-item"><a href="#ass_technology" class="nav-link side" data-bs-toggle="tab">Assistive Technology</a></li>
+                
+                <li class="nav-item"><a href="#exercise" class="nav-link side" data-bs-toggle="tab">Exercises</a></li>
+            </ul>
+        </div>
+        <div class="tab-content">
+            <!--Lesson1-->
+            <div class="tab-pane active" id="html2">
+                <div class="row">
+                    <h2>Network and Hardware</h2>
+                    <hr>
+                    <div class="col-md-9">
+                        <h4>What is networking hardware?</h4>
+                        <p>Networking hardware includes all computers, peripherals, network interface cards and other equipment needed to perform data- processing and communications within the network.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="Image/network_and_hardware.jpg" class="img-fluid" alt="network and hardware">
+                    </div>
+                </div>
+                <hr>
+                <div class="row py-3">
+                    <div class="col-md-5">
+                        <h4>Networking Hardware Device</h4>
+                        <p>1. Network Interface Card (NIC).</p>
+                        <p>2. Modem</p>
+                        <p>3. Hub</p>
+                        <p>4. Switch</p>
+                        <p>5. Repeater</p>
+                        <p>6. Router </p>
+                        <p>7. Bridge</p>
+                        <p>8. Gateway</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/device_network.jpg" class="img-fluid" >
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4>1. Network Interface Card (NIC)</h4>
+                        <p>• NIC is a device attached to each workstation and server.</p>
+                        <p>• The NIC provides a physical connection between the networking cable and the computers.</p>
+                        <p>• NICS come in three basic varieties: 8-bit, 16-bit, 32-bit or more.
+                            The larger the number of bits that can be transferred to the NIC, the faster the NIC can transfer data to the network cable.</p>
+                        <p>• Most NICs are internal with the card fitting into an expansion slot in the computer or built in the motherboard.</p>
+                        
+
+                    </div>
+                    <div class="col-md-7">
+                        <img src="Image/nic.png" class="img-fluid" alt="NIC">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4>2. Modem</h4>
+                        <p>• Modems are most frequently used to enable computers to communicate with each other across telephone lines.</p>
+                        <p>• Stands for Modulation - demodulation.</p>
+                        <p>• Converts digital signal to analog signal and vice versa.</p>
+                        <p>• Work as wired / wireless.</p>
+                    </div>
+                    <div class="col-md-7">
+                        <img src="Image/modem.jpg" alt="modem" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4>3. Hub</h4>
+                        <p>• A hub is a device that provides a central connection point for cables from computers and other peripherals</p>
+                        <p>• On this network, all computers can communicate directly with each other.</p>
+                        <p>• All the nodes connected to a hub share the bandwidth among themselves.</p>
+                        <p>• Support 8, 12 or 24 ports.</p>
+                        <p>• Always used in a star topology.</p>
+                    </div>
+                    <div class="col-md-7">
+                        <img src="Image/hub.jpg" alt="hub" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4>4. Switch</h4>
+                        <p>• A switch is a small hardware device that joins multiple computers together within one Local Area Network (LAN).</p>
+                        <p>• A switches generally contains more intelligence than a hub.</p>
+                        <p>• Unlike hubs, switches are capable of inspecting data packets as they are received, determining the source and destination device of each packet, and forwarding them appropriately.</p>
+                        <p>• Allow several users to send information over a network at the same time without slowing each other down.</p>
+                    </div>
+                    <div class="col-md-7">
+                        <img src="Image/switch.jpg" alt="switch" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4>5. Repeater</h4>
+                        <p>• Since a signal loses strength as it passes along cable, it is often necessary to boost the signal with a device called a repeater.</p>
+                        <p>• A repeater is an electronic device that receives a signal, cleans it of unnecessary noise, regenerates it, and retransmits it at a higher power level so that the signal can cover longer distances without degradation.</p>
+                        <p>• A good example of the use of repeaters would be in a local area network using a star topology.</p>
+                        <p>• It is wired / wireless.</p>
+                        <p>• Regenerates and propagates all electrical transmissions between 2 or more LAN segments.</p>
+                        <p>• Allows extension of a network beyond physical length limitations.</p>
+                        <p>• Layer 1 of the "OSI model"</p>
+
+                    </div>
+                    <div class="col-md-7 py-5">
+                        <img src="Image/reapeater.jpg" alt="switch" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4>6. Router</h4>
+                        <p>• A device to interconnect SIMILAR networks, e.g. similar protocols, similar workstations and similar servers.</p>
+                        <p>• A router is an electronic device that interconnects two or more computer networks, and interchanges packets of data between them.</p>
+                        <p>• Each data packet contains address information that a router can use to determine if the source and destination are on the same network, or if the data packet must be transferred from one network to another.</p>
+                        <p>•  If you have a LAN that you want to connect to the Internet, you will need a router to serve as the translator between information on your LAN and the Internet</p>
+                    </div>
+                    <div class="col-md-7">
+                        <img src="Image/router.jpg" alt="switch" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4>7. Bridge</h4>
+                        <p>• A bridge is a device that connects a Local Area Network (LAN) to another Local Area Network that uses the same protocol (for example TCP/IP, Ethernet or token ring).</p>
+                        <p>• The function of a bridge is to connect separate networks together that are of the same type of protocol.</p>
+                        <p>• A bridge is a device that allows you to segment a large network into two smaller, more efficient networks.</p>
+                        <p>• When a packet is received by the bridge, the bridge determines the destination and source segments.</p>
+                    </div>
+                    <div class="col-md-7">
+                        <img src="Image/bridge.jpg" alt="bridge" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4>8. Gateway</h4>
+                        <p>• Gateways are used to interconnect two different networks having different protocols.</p>
+                        <p>• Networks using different protocols use different addressing formats.</p>
+                        <p>• A gateway is a network point that acts as an entrance to another network.</p>
+                        <p>• Gateways are also called protocol converters.</p>
+                    </div>
+                    <div class="col-md-7">
+                        <img src="Image/gateway1.webp" alt="gateway" class="img-fluid">
+                    </div>
+                </div>
+                
+                
+                <hr>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Explain Networking Hardware Device</h3>
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yYe6Mh9fig0?si=XruW9djtywPIkv-9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--Lesson1 end-->
+            <!--Lesson2-->
+            <div class="tab-pane" id="css2">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Cloud Computing</h2>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-10">
+                                <h4>What is cloud computing?</h4>
+                                <p>The cloud refers to application, services and data storage on the internet. With this, users can access database resources via internet from anywhere, for as long as they need, without worrying about any maintenance or management of actual resources.</p>
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="Image/cloud1.webp" alt="cloud" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="row py-5">
+                            <div class="col-md-6">
+                                <h4>Cloud storage</h4>
+                                <p>Cloud storage is a cloud computing model that enables storing data and files on the internet through a cloud computing provider that you access either through the public internet or a dedicated private network connection.</p>
+                                <h4>Benefits of Cloud Storage</h4>
+                                <p>The provider securely stores, manages, and maintains the storage servers, infrastructure, and network to ensure you have access to the data when you need it at virtually unlimited scale, and with elastic capacity. Cloud storage removes the need to buy and manage your own data storage infrastructure, giving you agility, scalability, and durability, with any time, anywhere data access.</p>
+                            </div>
+                            <div class="col-md-6 py-4">
+                                <img src="Image/cloud_storage.jpg" alt="cloud storage" class="img-fluid"> 
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-10 ">
+                                <img src="Image/cloud_storage1.jpg" alt="cloud storage" class="img-fluid">
+                                <h4 class="text-center">Cloud Storage Room</h4>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-10">
+                                <h4>How does cloud storage work?</h4>
+                                <p>► Cloud storage is delivered by a cloud services provider that owns and operates data storage capacity by maintaining large datacenters in multiple locations around the world.</p>
+                                <p>► Cloud storage providers manage capacity, security, and durability to make data accessible to youř applications over the internet in a pay-as-you-go model.</p>
+                                <p>► Typically, you connect to the storage cloud either through the internet or through a dediçated private connection, using a web portal, website, or a mobile app.</p>
+                                <p>► When customers purchase cloud storage from a service provider, they turn over most aspects of the data storage to the vendor, including capacity, security, data availability, storage servers and computing resources, and network data delivery.</p>
+                            </div>
+                        </div>
+                        <div class="video-container">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <div class="video-container">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/9-jYCdv_qoo?si=7XTq7MGoe4c4ddiO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-10">
+                                <h4>What are the type of Cloud Storage</h4>
+                                <h5>There are three main cloud storage types:</h5>
+                                <p>1. Object storage</p>
+                                <p>2. File storage</p>
+                                <p>3. Block storage</p>
+                                <p>Each offers its own advantages and has it Own use cases.</p>
+
+                            </div>
+                         
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 justify-content-center">
+                                <img src="Image/type_of_cloud.jpg" alt="cloud" class="img-fluid">
+                            </div>   
+                        </div>
+                        
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <!--Lesson2 end-->
+            <!--Lesson3-->
+            <div class="tab-pane" id="javascript2">
+                <h2>Networking</h2>
+                <hr>
+                <div class="row">
+                    <h3>Definitions</h3>
+                    <div class="col-md-6 py-4">
+                        <p>A network is simply a collection of computers or other hardware devices that are connected together, either physically or logically, using special hardware and software, to allow them to exchange information and cooperate. Networking is the term that describes the processes involved in designing, implementing, upgrading, managing and otherwise working with networks and network technologies.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/networking.jpg" class="img-fluid" alt="Networking">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h3>Type of Computer Network</h3>
+                    <div class="col-md-4">
+                        <p>1. Local Area Network(LAN)</p>
+                        <p>2. Metropolitan Area Network(MAN)</p>
+                        <p>3. Wide Area Network(WAN)</p>
+                    </div>
+                    <div class="col-md-8">
+                        <img src="Image/type_network.png" class="img-fluid" alt="type of network">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6 py-4">
+                        <h4>1. Local Area Network</h4>
+                        <p>• smallest network compared to the other two networks.</p>
+                        <p>• The simplest form of LAN is to connect two computers together.</p>
+                        <p>• LAN is operated within a limited physical area, such as at home, school, a single building or several buildings.</p>
+                        <p>• A network which consists of less than 500 interconnected devices across several buildings, is still recognised as a LAN.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/lan.jpeg" alt="LAN" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>2. Metropolitan Area Network(MAN)</h4>
+                        <p>• 'Metropolitan' - describes important cities such as Kuala Lumpur, Manila, Singapore, Tokyo, London and New York.</p>
+                        <p>• located at different sites within a large physical area, such as a city.
+                            Companies that have several branches within the Kuala Lumpur city such as banks, use a MAN.</p>
+                        <p>• setting up a MAN across long distances can be best connected using fiber optics.</p>
+                        <p>• can be a collection of several LANs within the same city.</p>
+                        <p>• often acts as a high speed network (although not as fast as a LAN) to allow sharing of regional resources.</p>
+                        <p>• MAN can be defined as a group of computers and network devices connected together within a large physical area.</p>
+                    </div>
+                    <div class="col-md-6 py-5">
+                        <img src="Image/man.png" alt="MAN" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>3. Wide Area Network(WAN)</h4>
+                        <p>• The largest network of all network types.</p>
+                        <p>• Internet is the largest WAN in the world.</p>
+                        <p>• WAN generally covers large distances such as states, countries or continents.</p>
+                        <p>• EG: Local banks have always maintained their business online by connecting all computers of their branches in the countries. nternational banks also use WAN to connect their computers all over the world.</p>
+                        <p>• WAN is a group of MANs or LANs or the mixture of both networks.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/wan.png" alt="WAN" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Client/Sever Network</h3>
+                        <p>• A client/server network is a network in which the shared files and applications are stored in the server but network users (clients) can still store files on their individual PCs.</p>
+                        <p>• A server is a computer that shares information and resources with other computers on a network.</p>
+                        <p>• A client is a computer which requests services or files from a server computer.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/client.png" alt="Client" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Peer-to-peer or P2P</h3>
+                        <p>• P2P is a network with all the nodes acting as both servers and clients.</p>
+                        <p>• A PC can access files located on another PC and can also provide files to other PCs.</p>
+                        <p>• All computers in the peer-to- peer network has equal responsibilities and capabilities to use the resources available on the network.</p>
+                        <p>• With peer-to-peer network, no server is needed; each computer in the network is called a peer.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/Peer-to-Peer.webp" alt="p2p" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3 class="text-center">Difference between P2P and Client/Sever</h3>
+                        <img src="Image/difference.jpg" alt="Difference" class="img-fluid py-1">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Network Topology</h3>
+                        <p>• A topology is a way of "laying out" the network.</p>
+                        <p>• Topologies can be either physical or logical.</p>
+                        <p>• Physical topologies describe how the cables are run.</p>
+                        <p>• Logical topologies describe how the network messages travel.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/network-topology.png" alt="network topology" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                
+            </div>
+            <!--Lessson3 end-->
+            <!--Lesson4-->
+            <div class="tab-pane" id="sending_the_messages">
+                <h2>Packet-switched and Circuit-switched</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3>What is Packet-switched and Circuit-switched?</h3>
+                        <p>Packet-switched and circuit-switched networks use two different technologies for sending messages and data from one point to another.</p>
+                        <p>Each has its advantages and disadvantages depending on what you are trying to do.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                        <img src="Image/P_C.jpg" alt="photo" class="img-fluid">
+                        
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h3>Packet Switching</h3>
+                    <div class="col-md-6">
+                       
+                        <p>► In packet-based networks, the message gets broken into small data packets.</p>
+                        <p>► These packets are sent out from the computer and they travel around the network seeking out the most efficient route to travel as circuits become available.</p>
+                        <p>► This does not necessarily mcan that they seek out the shortest route.</p>
+                        <p>► Each packet may go a different route from the others.</p>
+                        <p>► This process is automatic and transparent to users.</p>
+                        <p>► Each packet is sent with a 'header address' which tells it where its final destination is, so it knows where to go.</p>
+                        <p>► The header address also describes the sequence for reassembly at the destination computer so that the packets are put back into the correct order.</p>
+                        <p>► One packet also contains details of how many packets should be arriving so that the recipient computer knows if one packet has failed to turn up.</p>
+
+                    </div>
+                    <div class="col-md-6 ">
+                        <img src="Image/being_connected.png" alt="packet" class="img-fluid">
+                        <p>► If a packet fails to arrive, the recipient computer sends a message back to the computer which originally sent the data, asking for the missing packet to be resent.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h3 >Advantages of Packet Switching</h3> 
+                    <div class="col-md-6">
+                        <p>» Security</p>
+                        <p>» Bandwidth used to full potential </p>
+                        <p>» Devices of different speeds can communicate </p>
+                        <p>» Not affected by line failure (redirects signal)</p>
+                        <p>» Duringa crisis or disaster, when the public telephone network might stop working, e-mails and texts can still be sent via packet switching</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>» Availability - no waiting for a direct connection to become available</p>
+                        <p>» Devices of different speeds can communicate </p>
+                        <p>» Not affected by line failure (redirects signal)</p>
+                        <p>» Availability- no waiting for a direct connection to become available</p>
+                       
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h3>Disadvantages of Packet Switching</h3>
+                    <div class="col-md-6">
+                        <p>» Availability- no waiting for a direct connection to become available</p>
+                        <p>» Not affected by line failure (redirects signal)</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>» Devices of different speeds can communicate</p>
+                        <p>» Duringa crisis or disaster, when the public telephone network might stop working, e-mails and texts can still be sent via packet switching</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3>Circuit Switching</h3>
+                        <p>► Circuit switching was designed in 1878 in order to send telephone calls down a dedicated channel.</p>
+                        <p>► This channel remains open and in use throughout the whole call and cannot be used by any other data or phone calls.</p>
+                        <p>► The telephone message is sent all together; it is not broken up.
+                            The message arrives in the same order that it was originally sent.</p>
+                        <p>► In modern circuit-switched networks, electronic signals pass through several switches before a connection is established.</p>
+                        <p>► During a call no other network traffic can use those switches.</p>
+                        <p>► With the expanded use of the Internet for voice and video, analysts predict a gradual shift away from circuit-switched networks.</p>
+                        <p>► A circuit-switched network is excellent for data that needs a constant link from end-to-end, for example, real-time video.</p>
+                        <img src="Image/circuit-switching.png" alt="circuit switching" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h3>Advantages of Circuit Switching</h3>
+                    <div class="col-md-10">
+                        <p>» Circuit is dedicated to the call – no interference, no sharing</p>
+                        <p>» Guaranteed the full bandwidth for the duration of the call </p>
+                        <p>» Guaranteed quality of service</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h3>Disadvantages of Circuit Switching</h3>
+                    <div class="col-md-6">
+                        <p>» Inefficient - the equipment may be unused for a lot of the call; if no data is being sent, the dedicated line still remains open.</p>
+                        <p>» It takes a relatively long time to set up the circuit.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>» It was primarily developed for voice traffic rather than data traffic.</p>
+                        <p>» During a crisis or disaster, the network may become unstable or unavailable.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h3>Packet Switching vs Circuit Switching</h3> 
+                    <div class="col-md-6">
+                        <p>► It is easier and less expensive to double the capacity of a packet switched network-a circuit network is heavily dependent on the number of channels available.</p>
+                        <p>► Circuit-switched technologies, which take four times long to double their performance/cost, force ISPs to buy that many more boxes to keep up.</p>
+                        <p> •This is why everyone is looking for ways to get Internet traffic off the telephone network.</p>
+                        <p> •The alternative of building up the telephone network to satisfy the demand growth is economically out of the question.</p>
+                        <p>► The battle between circuit and packet technologies has been around a long time, and it is starting to be like the old story of the tortoise and the hare.</p>
+                        <p>•In this case, the hare is circuit switching -fast, reliable and smart. The hare starts out fast and keeps a steady pace, while the tortoise starts slow but manages to double his speed every 100 meters.</p>
+                        <p>•If the race is longer than 2 km (1.2 miles), the power of compounding favors the tortoise (packet switching).</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/cvsp.jpg" alt="Packet Switching vs Circuit Switching" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="video-container">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <h2>How a packet travels over the internet?</h2>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/jWcbKCRP680?si=yB1bMHvGl_EBpoEK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3></h3>
+                    </div>
+                </div>
+            </div>
+            <!--Lesson4 end-->
+            <!--Lesson5-->
+            <div class="tab-pane" id="security">
+                <h2>Network Security</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>What is Network Security?</h3>
+                        <p>► Network security is a level of quarantee that all the machines in a network are working optimally and the users of these machines only possess the rights that were granted to them</p>
+                        <p>► This can include:</p>
+                        <p>-preventing unauthorized people from acting on the system maliciously</p>
+                        <p>-securing data by anticipating failures</p>
+                        <p>-guaranteeing that services are not interrupted</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/security.jpeg" alt="Security" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Basic Network Security</h3>
+                        <p>► When connecting a matching to a network, we need to make sure no one will easily break in to it.</p>
+                        <p>► Even if you don't think anyone will try to break into your machines - chances are that someone might try.</p>
+                        <p>► Crackers often run network scan utilities that check a large range of IP addresses, and automatically try to find machines running servers with security holes.</p>
+                        <p>► To protect against that, one could simply disable any unnecessary network service they are running.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/basic.webp" alt="photo" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h3>Need for Network Security</h3>
+                    <div class="col-md-6">
+                        <p>► In the past, hackers were highly skilled programmers who understood the details of computer communications and how to exploit vulnerabilities.</p>
+                        <p>► Today almost anyone can become a hacker by downloading tools from the Internet.</p>
+                        <p>► These complicated attack tools and generally open networks have generated an increased need for network security and dynarmic security policies.</p>
+                        <p>► The easiest way to protect a network from an outside attack is to close it hffnetwork from an outside attack is to close it off completely from the outside world.</p>
+                        <p>► A closed network provides connectivity only to trusted known parties and sites; a closed network does not allow a connection to public networks.</p>
+                    </div>
+                    <div class="col-md-6 py-3">
+                        <img src="Image/security_1.jpg" alt="security" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h3>Type of Network Security</h3>
+                    <div class="col-md-6 py-3">
+                        <h4>Wi-Fi Protected Access (WPA)</h4>
+                        <p>- WPA encrypts information, and checks to make sure that the network security key has not been modified.</p>
+                        <p>- WPA also authenticates users to help ensure that only authorized people can access the network.</p>
+                        <p>- WPA is designed to work with all wireless network adapters, but it might not work with older routers or access points.</p>
+                    </div>
+                    <div class="col-md-6 py-3">
+                        <h4>Wired Equivalent Privacy (WEP)</h4>
+                        <p>- WEP is an older network security method that is still available to support older devices, but it is no longer recommended.</p>
+                        <p>- When you enable WEP, you set up a network security key.</p>
+                        <p>- This key encrypts the information that one computer sends to another computer across your network. However, WEP security is relatively easy to crack.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-10">
+                        <h4>Authentication</h4>
+                        <p>Authentication is a term that refers to the process of proving that some fact or some document is genuine. In computer science, this term is typically associated with proving a user’s identity. Usually, a user proves their identity by providing their credentials, that is, an agreed piece of information shared between the user and the system.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Authentication Factors</h4>
+                        <p>A specific category of credentials, like username and password, are usually said an authentication factor. Even if password authentication is the most well-known type of authentication, other authentication factors exist. There are three types of authentication factors typically classified as follows:</p>
+                        <p>-Something you know, for example, a password</p>
+                        <p>-Something you have, for example, a smartphone</p>
+                        <p>-Something you are, for example, biometric authentication</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/cover-auth.jpg" alt="Authentication" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h3>Network Attacks Methods</h3>
+                    <div class="col-md-6">
+                        <p>-Eavesdropping- Interception of communications by an unauthorized party.</p>
+                        <p>-Data Modification- Data altering, reading from unauthorized party.</p>
+                        <p>-ldentity Spoofing (IP Address Spoofing) - IP address to be falsely assumed-identity spoofing and the attacker can modify, reroute, or delete your data.</p>
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <p>-Password-Based Attacks - By gaining your access rights to a computer and network resources are determined by who you are, that is, your user name and your password.</p>
+                        <p>-Denial-of-Service Attack- Prevents normal use of your computer or network by valid Users, and it could be used for sending invalid data to application, to flood the computer, block traffic, etc.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="video-container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Network Security</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/rG02r5y2Fdo?si=QE1ZsXIOSUEvHy2m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="py-3"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="tab-pane" id="exercise1">
+                <ol class="exe">
+                    <li>
+                        <div class="row">
+                            <p>Three types of computer network are LAN, MAN and ______.</p>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q1-1">WAN</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q1-2">P2P</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q1-3">Client</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans1" id="q1-1">
+                                <input type="radio" name="ans1" id="q1-2">
+                                <input type="radio" name="ans1" id="q1-3">
+                                <p id="q1-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q1-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>2. What does authentication prove?</p>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q2-1">User's identity</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q2-2">User's location</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q2-3"> Network's speed</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans2" id="q2-1">
+                                <input type="radio" name="ans2" id="q2-2">
+                                <input type="radio" name="ans2" id="q2-3">
+                                <p id="q2-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q2-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>3. What does cloud storage enable?</p>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q3-2">Network security</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q3-1">Data storage</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q3-3">Data processing</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans3" id="q3-1">
+                                <input type="radio" name="ans3" id="q3-2">
+                                <input type="radio" name="ans3" id="q3-3">
+                                <p id="q3-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q3-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>4. NIC connects:</p>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q4-1">User inputs</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q4-2">Data drives</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q4-3"> Network cables</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans4" id="q4-1">
+                                <input type="radio" name="ans4" id="q4-2">
+                                <input type="radio" name="ans4" id="q4-3">
+                                <p id="q4-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q4-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>5. What distinguishes packet-switched and circuit-switched networks?</p>
+                            
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q5-2">Hardware compatibility</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q5-1">Transmission methods</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q5-3">Software efficiency</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans5" id="q5-1">
+                                <input type="radio" name="ans5" id="q5-2">
+                                <input type="radio" name="ans5" id="q5-3">
+                                <p id="q5-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q5-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>6. How is cloud storage typically accessed?</p>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q6-1">Mobile app</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q6-2">Postal service</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q6-3">Carrier pigeon</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans6" id="q6-1">
+                                <input type="radio" name="ans6" id="q6-2">
+                                <input type="radio" name="ans6" id="q6-3">
+                                <p id="q6-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q6-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>7. What remains open throughout a call in circuit switching?</p>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q7-1">Dedicated channel</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q7-2">Dynamic routing / channel</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q7-3">Fragmented messages</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans7" id="q7-1">
+                                <input type="radio" name="ans7" id="q7-2">
+                                <input type="radio" name="ans7" id="q7-3">
+                                <p id="q7-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q7-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>8. Which network has the smallest scale?</p>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q8-2">MAN</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q8-3">WAN</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q8-1">LAN</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans8" id="q8-1">
+                                <input type="radio" name="ans8" id="q8-2">
+                                <input type="radio" name="ans8" id="q8-3">
+                                <p id="q8-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q8-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>9. What is the primary function of a router?</p>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q9-2">Encrypt data packets</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q9-3"> Connect similar networks</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q9-1">Connect dissimilar networks</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans9" id="q9-1">
+                                <input type="radio" name="ans9" id="q9-2">
+                                <input type="radio" name="ans9" id="q9-3">
+                                <p id="q9-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q9-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>10. What is the primary function of a bridge in networking?</p>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q10-2">Connect LANs with different protocols</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q10-1">Connect LANs with similar protocols</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q10-3">Connect LANs with same protocols</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans10" id="q10-1">
+                                <input type="radio" name="ans10" id="q10-2">
+                                <input type="radio" name="ans10" id="q10-3">
+                                <p id="q10-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q10-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <!--Lesson5 end-->
+            <div class="tab-pane " id="computer1">
+                <h3>Computer in Education</h3>
+                <hr>
+                <div class="row">
+                    <div class="col-md-10">
+                        <img src="Image/learning1.jpg" alt="computer in education" class="img-fluid">
+                        <p class="py-3">Technology continues to evolve over the years,and integrating it into classrooms as a teaching tool can be very beneficial for students as well as teachers.</p>
+                    </div>
+                    <hr>
+                </div>
+                <div class="row">
+                    <h3>Computer and Education allow us enable us to:</h3>
+                    <div class="col-md-6 py-3">
+                        
+                        <h4>► Teach more effectively</h4>
+                        <p>With computers we can individualize instruction grant students autonomy, and empower students to learn at their own pace, rather than wait for the teacher's personal attention. Each learner benefits from having an omnipresent tutor to individually tailor schoolwork.</p>
+                    </div>
+                    <div class="col-md-6 py-3">
+                        <h4>► Reach and teach more students.</h4>
+                        <p>Computers and internet access can expand the educational horizons of children in isolated rural communities, children with limited community resources, or those children who are homebound because of disability or illness.</p>
+                    </div>
+                    <div class="col-md-6 py-3">
+                        <h4>► Make the world our classroom.</h4>
+                        <p>Students with internet access can directly tap resources in their communities or venture beyond the neighborhood. Students can draw from limitless books, articles, pictures and sound clips; follow links to experts or virtual fieldtrips; and participate real time communication across the globe.</p>
+                    </div>
+                    <div class="col-md-6 py-3">
+                        <h4>► Turn tatchkey Kids into connected kids.</h4>
+                        <p>Too many youngsters have no one to talk and are hesitant to asks questions from adults and teachers.Interner offers a homework helper, a companion at the end of the school day, or chat room of friends so that no one needs to be alone home.</p>
+                    </div>
+                    <div class="col-md-6 py-3">
+                        <h4 >► Get ready for the future</h4>
+                        <p >Technology encourages interdisciplinary and collaborative work, facilitates problern- learning and provides an outlet for student to express their creativity. Students at ease with technology will be assets to future employer.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row ">
+                    <h3>Role of computer in education</h3>
+                    <div class="col-md-6">
+                        <p>1. The advantages of computers in education an efficient storage and rendition of information, quick in formation processing.</p>
+                        <p>2. Computer teaching plays a key role in the modern system of education. it is more easier to store information than hand- written notes.</p>
+                        <p>3. Computers facilitate an efficient storage and effective presentation of information. presentation software like powerpoint and animation software can be...</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/learning.jpg" class="img-fluid" alt="learning">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h3>Real-Life ues of computer in education</h3>
+                    <div class="col-md-6">
+                        <p>Teaching and Learning</p>
+                        <p>Testing and evaluation</p>
+                        <p>Guidance purpose</p>
+                        <p>Libray and information sources</p>
+                        <p>School Administration</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/real_life.jpg" alt="Real-Life" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h3>Importance of Computer Literacy</h3>
+                    <div class="col-md-6">
+                        <p>► Computer education: know-how of computer concepts and basic knowledge of its operation.</p>
+                        <p>► Not only for storage and processing, but got communication.</p>
+                        <p>► Computer knowledge is an important job skill.</p>
+                        <p>► Computers serve as efficient means for management of information: banking, medicine, online shopping.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/importance_edu.jpg" alt="photo" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h3>What student do?</h3>
+                    <div class="col-md-6">
+                        <p>► Interact and share with social networking sites</p>
+                        <p>► Projects are done using applications:</p>
+                        <p>-Documents in Microsoft Word</p>
+                        <p>-Presentations in PowerPoint</p>
+                        <p>-Drawing in AutoCAD</p>
+                        <p>► Video conferencing</p>
+                        <p>► Distance learning</p>
+                        <p>► Taking online courses </p>
+                        <p>► Researching Entertainment:</p>
+                        <p>-movies, games, etc.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/ppt.jpg" alt="photo" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    
+                    <div class="col-md-6">
+                        <h3 >Virtual reality </h3>
+                        <p>
+                            Virtual reality (VR) is revolutionizing education by providing immersive learning experiences in schools. Through VR, students can embark on virtual field trips to explore historical landmarks, scientific phenomena, and cultural sites, all from the comfort of the classroom. Simulations and interactive experiences deepen understanding and engagement, catering to diverse learning styles. VR also facilitates career exploration and fosters social-emotional learning, transforming traditional education into a dynamic and interactive journey of discovery.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/Virtualreality.jpg" class="img-fluid" width="500px" height="270px">
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="tab-pane" id="e-learning">
+                <h2>E-Learning</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4>What is E-Learning?</h4>
+                                <p>E-learning is a learning environment which uses information and communication technologies (ICT's) as a platform for teaching and learning activities. It has been defined as "pedagogy empowered by technology", though 'digital technology' is more accurate. Different studies have found that participants learn five times more material in online learning courses using multimedia content than in traditional face to face courses. Because online courses give students full control over their own learning, students are able to work at their own speed.It is a more relaxed way of learning that is appealing and useful to all age groups. eLearning is popular with those who work full or part-time, as the courses can comfortably be taken at any time and any place rather than having to attend a particular venue at a specified time. </p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="Image/e-learning.jpg" class="img-fluid py-5" alt="e-learning">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4>Who use E-learning? </h4>
+                                <p>The top industries using eLearning include Healthcare, Technology, Retail and eCommerce, Education, and Construction. Today, eLearning means much more than just delivering 
+
+                                    A survey from 2019 (pre-pandemic conditions) showed that 63% of American high school students use digital learning tools at school every day in comparison to 45% of elementary school students. The usage of digital tools and devices among school students is expected to grow in the coming years. 
+                                    E-learning is often used in the workplace for training people. It is used to help people get new skills, for example, IT skills. It is also used when people need to know about new rules or ways of doing things, for example, if a government passes a new law that people in a particular job must know about.
+                                    E-learning is never the main type of learning in schools. It may be used by teachers to give you extra help. E-learning can also be used to give you extra challenges. Students can use e-learning at home to do extra study.</p>
+                            </div>
+                            <div class="col-md-6 py-3">
+                                <img src="Image/e-learning_@.jpg" alt="e-learning" class="img-fluid">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <h4>Multimedia and E-learning </h4>
+                            <div class="col-md-6 py-3">
+                                <h5>Introduction to Multimedia Learning</h5>
+                                <p>
+                                Multimedia learning involves using the aid of technology to deliver a blend of text, static images, animation, video and audio. Some examples of common types of media used for learning are slide decks, recorded videos, infographics and podcasts. 
+                                </p>
+                                <h5>Application of the Multimedia Principle
+                                </h5>
+                                <p>Presenting information in multiple formats helps learners process and integrate information more effectively. How to apply the multimedia principle: Use a mix of text and images. Incorporate visuals to illustrate key points in the eLearning program. 
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="Image/multimedia.jpeg" class="img-fluid" alt="Multimedia"> 
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5>Examples of Multimedia Learning</h5>
+                                <p>Multimedia learning describes learning using pictures and words. Examples of multimedia learning include watching a PowerPoint presentation, watching a pre-recorded lecture or reading a physics textbook. 
+                                </p>
+                                <h5>Benefits of Strategic Multimedia Integration in eLearning</h5>
+                                <p>The strategic use of multimedia in eLearning captivates learners' attention and enhances their understanding of complex concepts, leading to improved retention and application of knowledge. </p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="Image/multimedia1.jpg" class="img-fluid" alt="Multimedia">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row py-5">
+                            <h5>Advantages of e-learning</h5>
+                            <div class="col-md-6">
+                                
+                                <p>Learn Anytime, Anywhere: You can study whenever and wherever you want, whether it's at home, work, or even while traveling.</p>
+                                <p>Easy to Understand: E-learning often uses videos, pictures, and interactive activities that make learning easier and more fun.</p>
+                                <p>Saves Money: You don't have to spend on travel or books since everything is online. Plus, many e-learning courses are cheaper than traditional classes.</p>
+                                <p>Learn at Your Own Pace: You can go as fast or slow as you like, and you can review things as many times as you need until you understand them.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="Image/elearning.jpg" class="img-fluid" alt="e-learning">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <h5>Disadvantages of e-learning</h5>
+                            <div class="col-md-6">
+                                <p>Technical Challenges: Sometimes, you might face issues with internet connectivity, computer problems, or understanding how to use online learning platforms.</p>
+                                <p>Lack of Interaction: E-learning can feel lonely because you're not in a classroom with classmates and teachers, making it harder to ask questions or get immediate feedback.
+                                </p>
+                                <p>Self-Motivation Required: Since you're responsible for your own learning schedule, it can be easy to procrastinate or lose focus without the structure of regular classes.
+                                </p>
+                                <p>Limited Social Interaction: You miss out on the social aspect of traditional classrooms, like making friends, group projects, and participating in class discussions.</p>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <img src="Image/Dis-e-learning.jpg" class="img-fluid" alt="e-learning">
+                                <p>Not Suitable for All Subjects: Some subjects, like hands-on skills or activities that require equipment, are harder to learn online compared to in-person classes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="simulation">
+                <div class="row">
+                    <h2>Simulations</h2>
+                    <hr>
+                    <div class="col-md-6">
+                        <h3>What is simulation?</h3>
+                        <p>► Simulation is the basis of sensitivity training, socio drama, role playing & psychodrama. It is not actual teaching.
+                            Certain underlying skills to teaching can be modified, described & practiced like any other skill.</p>
+                        <p>► It is assumed that through role perception the psychological appreciation of the classroom problems will grow and develop in the student teacher a basis for handling the problems in the class.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/simulation_1.webp" alt="simulation" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Purpose Of Simulation</h3>
+                        <p>► To help students practice decision making and problem solving skills and to develop human interaction abilities in a controlled and safe setting.</p>
+                        <p>► By means of active involvement in a simulation exercise, a game, or a role-playing situation, the student achieves cognitive, affective and psychomotor outcomes.</p>
+                        <p>► Students have a chance to apply principles and theories they have learned and to see how and when these principles work.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/simulation_pp.jpg" alt="simulation" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Ues in Nursing</h3>
+                        <p>► Increasing awareness of the need to address patient safety.</p>
+                        <p>► In the acquisition of communication skills.</p>
+                        <p>► The ability of simulation to enhance clinical practice Learn to solve problems efficiently with minimal wasting of time and resources.</p>
+                        <p>► Used to evaluate the student learning and competence.</p>
+                        <p>► It is used to achieve many nursing outcomes.</p>
+                        <p>► Simulation can help nursing student gain skill in applying the nursing process.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/nursing.webp" alt="nursing" class="img-fluid">
+                    </div> 
+                </div>
+                <hr>
+                <div class="row">
+                    <h3>Activities in simulation</h3>
+                    <div class="col-md-12">
+                        <h4>Role-Playing:</h4>
+                        <p> Role-playing involves students assuming specific roles or characters to enact scenarios or situations relevant to the subject matter. This can be used in diverse fields such as language learning, history, social studies, and conflict resolution.</p>
+                        <h4>Case Studies:</h4>
+                        <p> Case studies present real or hypothetical scenarios that require students to analyze, problem-solve, and make decisions based on the information provided. They encourage critical thinking, application of theoretical knowledge, and understanding of real-world contexts.</p>
+                        <h4>Computer-Based Simulations: </h4>
+                        <p>Computer-based simulations utilize software programs or applications to recreate environments, processes, or systems for educational purposes. Examples include virtual laboratories for science education, business simulations, and flight simulators for aviation training.</p>
+                        <h4>Physical Simulations:</h4>
+                        <p>Physical simulations involve the use of tangible materials or manipulatives to represent abstract concepts or phenomena. This includes models, prototypes, and hands-on experiments used in science, engineering, and technical education.</p>
+                        <h4>Role Reversal Simulations:</h4>
+                        <p>In role reversal simulations, students take on the role of instructors or experts, teaching their peers or facilitating learning activities. This approach promotes student-led learning, peer collaboration, and deeper understanding of the material through teaching.</p>
+                        <h4>Interactive Simulations:</h4>
+                        <p>Interactive simulations allow students to actively engage with dynamic, responsive environments or scenarios. This can include virtual reality (VR) simulations, interactive multimedia presentations, and online simulations where students can manipulate variables and observe outcomes in real-time.</p>
+                        <h4>Simulated Environments: </h4>
+                        <p>Simulated environments replicate real-world settings or conditions to provide immersive learning experiences. Examples include simulated clinical environments in healthcare education, mock courtrooms for legal education, and simulated business environments for entrepreneurship training.</p>
+                        <h4>Gaming Simulations: </h3>
+                        <p>Educational games or gamified simulations incorporate game elements such as competition, rewards, and challenges into learning activities. These simulations are designed to enhance engagement, motivation, and retention of information across various subjects and age groups.</p>
+                        <h4>Cultural Simulations:</h4>
+                        <p> Cultural simulations immerse students in unfamiliar cultural contexts or perspectives to promote cultural awareness, empathy, and understanding. This can include activities like cultural exchange programs, language immersion experiences, or historical reenactments.</p>
+                    </div>
+                    <hr>
+                </div>
+                <div class="row">
+                    <h3>Advantages of Simulation</h3>
+                    <div class="col-md-6">
+                        
+                        <p>► Simulation offers an excellent opportunity to learn from mistakes </p>
+                        <p>► Simulation fosters critical thinking & problem solving skills.</p>
+                        <p>► Simulation helps students to acquire concrete meaning for abstract terms Simulation provides a realistic experiences, students can easily apply these concepts in the clinics </p>
+                        <p>► Simulation establishes a setting where theory and practice can be combined.</p>
+                        <p>► Simulation is highly student centered because of its very interesting & motivating nature, effectiveness in teaching slow learners as well as fast learners & all types of students.</p>
+                        <p>► It provides participants to deal with the consequences of their actions.</p>
+                        <p>► Students can learn without harming the patient.</p>
+                        <p>► Students can receive feedback on the appropriateness of their action.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/simulation_3.jpg" alt="photo" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Disadvantages of Simulation</h3>
+                        <p>► Simulation can't be made in all subject of the curriculum </p>
+                        <p>► Simulation can't be conveniently used in case of small children because mechanism is too difficult for them to follow.</p>
+                        <p>► It requires a lot of preparation on the part of teachers Minimum of feedback sequence to choose</p>
+                        <p>► Time consuming Need for many simulators.</p>
+                        <p>► Simulation is costly in terms of both time and money.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/simulation_4.webp" alt="simulation" class="img-fluid">
+                    </div>
+                </div>
+               
+            </div>
+            <div class="tab-pane" id="ass_technology">
+                <div class="row">
+                    <h2>Assistive Technology</h2>
+                    <hr>
+                    <div class="col-md-6">
+                        <p>► The Individuals with Disabilities Education Improvement Act of 2004 (also called IDEA 2004). </p>
+                        <p>► "Any item, piece of equipment, or product system, whether acquired commercially off the shelf, modified, or customized, that is used to increase, maintain, or improve functional capabilities of a child with a disability.</p>
+                        <p>► Assistive technology can also be defined as any device or service that helps a student with a disability meet his or her individualized education program's goals and participate in the general education setting to the greatest extent.</p>
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <p>► Assistive technology can range from low-tech to high-tech a meet a variety of needs for students with disabilities.</p>
+                        <p>► The goal of assistive technology is to improve functional performance of individuals with disabilities while helping them to:</p>
+                        <p>-Communicate</p>
+                        <p>-Perform academic tasks</p>
+                        <p>-Participate in social or extracuicular activities</p>
+                        <p>-Move or travel independently around school</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Assistive technology Service</h3>
+                        <p>Assistive technology service is defined as "any service that directly assists a child with a disability in the selection, acquisition, or use of an assistive technology device."</p>
+                        <img src="Image/ass_technology2.png" alt="ass_technology" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Assistive Technology for hearing impairment</h3>
+                        <p>There are many assistive technology devices available to students who have hearing impairments.</p>
+                        <p>These devices can be used to help students amplify the teacher or speaker's voice, block out background noise in a noisy classroom, and better participate in conversations.</p>
+                        <p>Personal FM systems (Frequency Modulated Radio Transmission) can be used in class or at home. The speaker wearsa microphone that transmits to the student's personal device, either through headphones, or special devices that transmit the amplified sound to coils ina hearing aid.</p>
+                        <p>Personal FM systems have been proven successful in helping students with hearing impairments focuS and hear better in the classroom.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/hearing.JPG" alt="hearing aid" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-6 py-5">
+                        <h4>Personal FM Divice</h4>
+                        <p>► Speaker wears the microphone device.</p>
+                        <p>► Student can wear the neckloop, which transmits amplified sound to coils in hearing aids, or the headphone receiver.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/personal_fm.jpg" alt="Personal Fm dievice" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Assistive Technology for Vision impairment</h3>
+                        <p>Assistive technology helps students with visual impairments increase their access to general Curiculum and improve academic performance.</p>
+                        <p>The goal of assistive technology for visual impairments is to provide greater independence in the classroom, both in academics and interactions with the teacher and peers.</p>
+                        <p>One example of AT for visual impairments includes a refreshable Braille display.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/vision_impairment.jpg" alt="vision_impairment" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row py-4">
+                    <div class="col-md-6">
+                        <h4>Refreshable Braille displays</h4>
+                        <p>Refreshable Braille displays are electronic devices that Connect to computers or tablets to produce tactile Braille output from what is shown onscreen.</p>
+                        <p>Braille displays are connected via USB or serial cable, and produce Braille output with small plastic or metal pins that move up and down to display Braille text characters for the reader.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/refreshable_braille.jpg" alt="Refreshable Braille Displays" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Assistive technology for learning disabilities</h3>
+                        <p>Many types of assistive technologies are available for students who struggle with learning disabilities.</p>
+                        <p>Assistive technologies can aid in listening skills, math, organization and memory, reading and writing.</p>
+                        <p> AT for learning disabilities can help to compensate for deficient areas to help with student learning, confidence, and independence.</p>
+                        <p>Portable word processors are a type of assistive technology that can make a difference to students with learning disabilities, allowing them to capitalize on strengths and bypass or strengthen areas of difficulty.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/portable_word _processors1.webp" alt="portable word processors" class="img-fluid">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6 py-5">
+                        <h3>Portable word processors</h3>
+                        <p>Portable word processors are easy to transport for students who have trouble witing and editing work by hand.</p>
+                        <p>Neos, Quickpads, and Fushions (shown) offer a variety of features to students.</p>
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <img src="Image/portabl_ word_processors.webp" alt="Portable word processors" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="tab-pane" id="exercise">
+                <ol class="exe">
+                    <li>
+                        <div class="row">
+                            <p>What defines e-learning?</p>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q11-1">Digital technology</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q11-2">Physical textbooks</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q11-3">Traditional class</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans11" id="q11-1">
+                                <input type="radio" name="ans11" id="q11-2">
+                                <input type="radio" name="ans11" id="q11-3">
+                                <p id="q11-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q11-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>2. Which simulation activity involves students enacting scenarios relevant to the subject matter?</p>
+                            
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q12-2">Case Studies</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q12-3">Role playing</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q12-1">Role Reversal</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans12" id="q12-1">
+                                <input type="radio" name="ans12" id="q12-2">
+                                <input type="radio" name="ans12" id="q12-3">
+                                <p id="q12-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q12-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>3. Which simulation type utilizes software programs to recreate environments or systems for educational purposes?</p>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q13-1">Computer-Based Simulations</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q13-2">Gaming Simulations</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q13-3">Simulated Environments</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans13" id="q13-1">
+                                <input type="radio" name="ans13" id="q13-2">
+                                <input type="radio" name="ans13" id="q13-3">
+                                <p id="q13-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q13-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>4. What is multimedia learning primarily characterized by?</p>
+                            
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q14-2">Audio and video</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q14-1">Text and images</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q14-3">Text and audio</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans14" id="q14-1">
+                                <input type="radio" name="ans14" id="q14-2">
+                                <input type="radio" name="ans14" id="q14-3">
+                                <p id="q14-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q14-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>5. What is a benefit of strategic multimedia integration in eLearning?</p>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q15-2">Knowledge application decline</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q15-3">Reduced attention span</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q15-1">Enhanced understanding</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans15" id="q15-1">
+                                <input type="radio" name="ans15" id="q15-2">
+                                <input type="radio" name="ans15" id="q15-3">
+                                <p id="q15-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q15-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>6. What is the goal of assistive technology?</p>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q16-1">Enhance functionality</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q16-2"> Eliminate functionality</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q16-3">Decrease functionality</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans16" id="q16-1">
+                                <input type="radio" name="ans16" id="q16-2">
+                                <input type="radio" name="ans16" id="q16-3">
+                                <p id="q16-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q16-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>7. How is assistive technology defined?</p>
+                            
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q17-2"> Commercial products</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q17-3">Customized devices</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q17-1">Individualized services</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans17" id="q17-1">
+                                <input type="radio" name="ans17" id="q17-2">
+                                <input type="radio" name="ans17" id="q17-3">
+                                <p id="q17-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q17-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>8. What does technology in education prepare students for?</p>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q18-1">Future employment</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q18-2"> Ancient civilizations</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q18-3">Artistic expressions</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans18" id="q18-1">
+                                <input type="radio" name="ans18" id="q18-2">
+                                <input type="radio" name="ans18" id="q18-3">
+                                <p id="q18-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q18-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>9. How do Personal FM systems help students with hearing impairments?</p>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q19-2">By enhancing visual content</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q19-3"> By providing written transcripts</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q19-1"> By amplifying the speaker's voice</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans19" id="q19-1">
+                                <input type="radio" name="ans19" id="q19-2">
+                                <input type="radio" name="ans19" id="q19-3">
+                                <p id="q19-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q19-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <p>10. How does virtual reality (VR) enhance education?</p>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q20-1">By providing immersive experiences</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q20-2">By restricting career exploration</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <label for="q20-3"> By limiting learning experiences</label>
+                            </div>
+                            <div class="col-md-2 col-xs-12 mb-3">
+                                <input type="radio" name="ans20" id="q20-1">
+                                <input type="radio" name="ans20" id="q20-2">
+                                <input type="radio" name="ans20" id="q20-3">
+                                <p id="q20-correct"><i class="bi bi-check2"></i>Correct</p>
+                                <p id="q20-wrong"><i class="bi bi-x"></i>Wrong</p>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+                
+            </div>
+            <div class="footer my-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="d-flex my-3 align-items-ceter">
+                            <div class="border-bottom border-dark w-100"></div>
+                            <div>Teach</div>
+                            <div>Tutor</div>
+                            <div>Hub</div>
+                            <div class="border-bottom border-dark w-100"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 text-center my-4">
+                                <!-- Footer Links -->
+                                <ul class="list-unstyled mb-0 justify-content-center ">
+                                    <li class="mb-2 ms-5 py-1"><a href="index.html" class="text-dark nav-link footer-text">Home</a></li>
+                                    <li class="mb-2 ms-5 py-1"><a href="about_us.html"  class="text-dark nav-link footer-text">About</a></li>
+                                    <li class="mb-2 ms-5 py-1"><a href="login.html"  class="text-dark nav-link footer-text ">Login</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <a href="https://www.facebook.com/"><i class="bi bi-facebook" style="font-size: 33px;"></i></a>
+                                <a href="https://www.youtube.com/"><i class="bi bi-youtube ms-4" style="font-size: 33px;"></i></a>
+                                <a href="https://www.instagram.com/"><i class="bi bi-instagram ms-4" style="font-size: 33px;"></i></a>
+                                <div class="row py-3">
+                                    <i class="bi bi-envelope" style="font-size: 17px;"> -TeachTutorHub@gamil.com</i>
+                                    <i class="bi bi-telephone " style="font-size: 17px;">+95928273971</i>
+                                </div>
+                                 
+                                 
+                            </div>
+                            <div class="col-md-4 text-center my-4">
+                                <ul class="list-unstyled mb-0 ">
+                                    <li class="mb-2 ms-4 py-1"><a href="lesson_page.html" class="text-dark nav-link footer-text">Lesson</a></li>
+                                    <li class="mb-2 ms-5 py-1"><a href="contact_us.html" class="text-dark nav-link footer-text">Contact us</a></li>
+                                    <li class="mb-2 ms-5 py-1"><a href="https://1drv.ms/w/c/83f189bb38ce25a4/ETWV7E8LzoJFrvKPtL6f9xIBLg172LuGnRidgIavqoBhcw?e=aZuWOR" class="text-dark nav-link footer-text">Reference</a></li>
+                                </ul>
+                            </div>
+                            
+                            <!--
+                            <div class="col-md-6 my-3">
+                                
+                                <h4>Contect Us</h4>
+                                <hr>
+                                <i class="bi bi-envelope" style="font-size: 15px;"> -YMT@gamil.com</i>
+                                <i class="bi bi-telephone ms-3" style="font-size: 15px;">+95928273971</i>
+                                <form>
+                                    <div class="row py-3">
+                                        <div class="col-md-5">
+                                            <input type="text" name="fname" value="" id="fname" class="form-control form-control-md" placeholder="Send message to us!">
+                                            
+                                            
+                                        </div>
+                                        <div class="col-md-1">
+                                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#my_modal" type="reset" >Send</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                 
+                                 <div class="text-center py-5">
+                                    <p>&copy; Team & Conditions   Privacy Policy</p>
+                                    <p>&copy; 2024 Innovative. All rights reserved.</p>
+                                </div>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                    <div class="text-center ">
+                        <p>&copy; Team & Conditions   Privacy Policy</p>
+                        <p>&copy; Copyright 2024.  All rights reserved. Developed by TechTutorHub.</p>
+                    </div>
+                </div>
+            <!--Footer end-->
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
